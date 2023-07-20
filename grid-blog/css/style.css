@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --color-0: #;
+    --color-1: #;
+    --color-2: #;
+    --color-3: #;
+}
+
+body{
+    background: var();
+}
+
+img{
+    max-width: 100px;
+}
