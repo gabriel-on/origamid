@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@keyframes seta {
+    from{
+        right: 30px;
+    }
+    
+    to{
+        right: 20px;
+    }
+}
+
+/* ------------------------------------------- */
+
 @media screen and (max-width: 1200px) {
     .estrutura {
         grid-template-areas: 
@@ -77,12 +89,10 @@
     }
 }
 
-@keyframes seta {
-    from{
-        right: 30px;
-    }
-    
-    to{
-        right: 20px;
+/* ------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+    .content{
+        grid-template-columns: auto;
     }
 }
