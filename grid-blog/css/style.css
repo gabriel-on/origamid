@@ -20,8 +20,12 @@
     --box-shadow: 5px 5px 15px #0000003d;
 }
 
-body{
-    background: var();
+::-webkit-scrollbar{
+    background: var(--color-3);
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--background);
 }
 
 img{
