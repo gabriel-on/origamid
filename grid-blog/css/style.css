@@ -113,7 +113,7 @@ a {
     border-radius: 5px;
     box-shadow: var(--box-shadow);
     display: block;
-    min-width: 60px;
+    min-width: 80px;
     max-width: 100px;
     margin: 0px auto 30px auto;
     padding: 20px;
